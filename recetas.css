@@ -1,0 +1,78 @@
+#parrafo{
+    width: 100%;
+    margin-top: 5%;
+    font-size: 40px;
+    font-weight: bold;
+    float: left;
+}
+
+.ingredientes{
+    margin-top: 2%;
+    font-size: 20px;
+    
+}
+
+.ingredientes ul{
+    float: left;
+    width: 40%;
+    padding: 0px;
+}
+
+.elaboracion{    
+    margin-top: 2%;
+    font-size: 20px;   
+}
+
+#receta{
+    float: left;
+    width: 40%;
+    padding: 0px;
+}
+
+.elaboracion li{
+    margin-top: 3%;
+}
+
+#video{
+    float: right;
+    margin-top: 3%;
+}
+
+.tortilla1{
+    width: 53.5%;
+    height: 300px;
+    float: right;
+    margin-top: 3%;
+}
+
+.formulario{
+    margin-left: 30%;
+}
+@media only screen and (max-width:1550px){
+    #receta{
+        width: 100%;
+        margin-right: 2%;
+    }
+    #video{
+        width: 95%;
+        float:left;        
+        height: 300px;
+    }
+
+}
+
+@media only screen and (max-width:1150px){
+
+    
+    .ingredientes ul{
+        width: 100%;
+    }
+
+    .tortilla1{
+        float: left;
+        
+        width: 320px;
+    }
+    
+}
+ 
